@@ -19,7 +19,7 @@ Através dessa análise procurei responder as seguintes questões:
 **Observação:** A resposta para essas perguntas podem ser visualizadas a nível de país ou a nível de Estado conforme demonstrado no gif abaixo.
 
 
-![](Aplicacao.gif)
+![](Imagens/dashboard.gif)
 
 
 
