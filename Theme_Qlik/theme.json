@@ -1,0 +1,149 @@
+{
+  "_inherit": true,
+  "_variables": {
+    "@TitleSize": "16px",
+    "@SubtitleSize": "15px",
+    "@TextSize": "14px",
+    "@FooterSize": "10px",
+    "@TitleColor": "#000000",
+    "@SubtitleColor": "#5a5664",
+    "@TextColor": "#0e0101",
+    "@FooterColor": "#340fd3",
+    "@BackgroundColor": "#d5d4d6",
+    "@AxisMajorColor": "#eeeeee",
+    "@AxisMinorColor": "#eeeeee"
+  },
+  "customStyles": [
+    {
+      "cssRef": "theme.css",
+      "classRef": "sense-theme"
+    }
+  ],
+  "color": "@TextColor",
+  "fontSize": "@TextSize",
+  "backgroundColor": "@BackgroundColor",
+  "dataColors": {
+    "primaryColor": "#0b62ae",
+    "othersColor": "#CC9B00",
+    "errorColor": "#CC4000",
+    "nullColor": "#CCCCCC"
+  },
+  "object": {
+    "title": {
+      "main": {
+        "color": "@TitleColor",
+        "fontSize": "@TitleSize"
+      },
+      "subTitle": {
+        "color": "@SubtitleColor",
+        "fontSize": "@SubtitleSize"
+      },
+      "footer": {
+        "color": "@FooterColor",
+        "fontSize": "@FooterSize",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "label": {
+      "name": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "value": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    },
+    "axis": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "line": {
+        "major": {
+          "color": "#080101"
+        },
+        "minor": {
+          "color": "#0c0000"
+        }
+      }
+    },
+    "grid": {
+      "line": {
+        "highContrast": {
+          "color": "#eeeeee"
+        },
+        "major": {
+          "color": "#eeeeee"
+        },
+        "minor": {
+          "color": "#eeeeee"
+        }
+      }
+    },
+    "referenceLine": {
+      "label": {
+        "name": {
+          "color": "@TextColor",
+          "fontSize": "@TextSize"
+        }
+      },
+      "outOfBounds": {
+        "color": "@TextColor",
+        "backgroundColor": "#ffffff",
+        "fontSize": "@TextSize"
+      }
+    },
+    "legend": {
+      "title": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      },
+      "label": {
+        "color": "@TextColor",
+        "fontSize": "@TextSize"
+      }
+    }
+  },
+  "palettes": {
+    "data": [
+      {
+        "name": "New dimension colors",
+        "translation": "New dimension colors description",
+        "propertyValue": "mbbhv",
+        "type": "row",
+        "scale": [
+          "#0b62ae",
+          "#91077f"
+        ]
+      },
+      {
+        "name": "New dimension colors",
+        "translation": "New dimension colors description",
+        "propertyValue": "rnh6lk",
+        "type": "row",
+        "scale": [
+          "#0b62ae"
+        ]
+      }
+    ],
+    "ui": []
+  },
+  "scales": [
+    {
+      "name": "New measure colors",
+      "translation": "New measure colors description",
+      "type": "class",
+      "propertyValue": "bfepr",
+      "scale": [
+        "#0b62ae"
+      ]
+    }
+  ]
+}
